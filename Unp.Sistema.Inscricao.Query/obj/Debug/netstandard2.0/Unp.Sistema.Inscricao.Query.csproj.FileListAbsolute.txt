@@ -1,0 +1,9 @@
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.deps.json
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.csprojAssemblyReference.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.AssemblyInfo.cs
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Query/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Query.pdb

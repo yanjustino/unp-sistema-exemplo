@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dominio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Unp.Sistema.Core\Unp.Sistema.Core.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Dominio\Unp.Sistema.Dominio.csproj" />
+  </ItemGroup>
+</Project>

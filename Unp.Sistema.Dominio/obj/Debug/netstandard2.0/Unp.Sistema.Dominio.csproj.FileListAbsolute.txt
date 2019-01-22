@@ -1,0 +1,12 @@
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/bin/Debug/netstandard2.0/Unp.Sistema.Dominio.deps.json
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/bin/Debug/netstandard2.0/Unp.Sistema.Dominio.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/bin/Debug/netstandard2.0/Unp.Sistema.Dominio.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/bin/Debug/netstandard2.0/Unp.Sistema.Core.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/bin/Debug/netstandard2.0/Unp.Sistema.Core.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.csprojAssemblyReference.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.AssemblyInfo.cs
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.csproj.CopyComplete
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/Debug/netstandard2.0/Unp.Sistema.Dominio.pdb

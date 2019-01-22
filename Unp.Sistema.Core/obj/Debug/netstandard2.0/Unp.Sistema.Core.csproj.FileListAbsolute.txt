@@ -1,0 +1,8 @@
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.AssemblyInfo.cs
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/bin/Debug/netstandard2.0/Unp.Sistema.Core.deps.json
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/bin/Debug/netstandard2.0/Unp.Sistema.Core.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/bin/Debug/netstandard2.0/Unp.Sistema.Core.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.pdb
