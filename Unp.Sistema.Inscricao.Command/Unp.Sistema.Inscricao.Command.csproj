@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <Folder Include="Dominio\" />
+    <Folder Include="Aplicacao\" />
+    <Folder Include="Aplicacao\Comandos\" />
+    <Folder Include="Aplicacao\Servicos\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Unp.Sistema.Core\Unp.Sistema.Core.csproj" />
