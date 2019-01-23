@@ -14,9 +14,5 @@ namespace Unp.Sistema.Inscricao.Command.Aplicacao.Comandos
         public DateTime DataNacimento { get; set; }
     }
 
-    public class RegistroDeInscricaoDeCandidatoExistente
-    {
-        public long CandidatoId { get; set; }
-        public long CursoPretendido { get; set; }
-    }
+
 }
