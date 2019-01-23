@@ -39,6 +39,9 @@
       "Unp.Sistema.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unp.Sistema.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Unp.Sistema.Dominio.dll": {}
         },
@@ -220,13 +223,13 @@
       "projectName": "Unp.Sistema.Inscricao.Command",
       "projectPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/Unp.Sistema.Inscricao.Command.csproj",
       "packagesPath": "/Users/yanjustino/.nuget/packages/",
-      "outputPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/obj",
+      "outputPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/yanjustino/.config/NuGet/NuGet.Config"
+        "/Users/yanjustino/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

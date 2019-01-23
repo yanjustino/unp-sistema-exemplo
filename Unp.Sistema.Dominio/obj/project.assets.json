@@ -204,13 +204,13 @@
       "projectName": "Unp.Sistema.Dominio",
       "projectPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/Unp.Sistema.Dominio.csproj",
       "packagesPath": "/Users/yanjustino/.nuget/packages/",
-      "outputPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj",
+      "outputPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/yanjustino/.config/NuGet/NuGet.Config"
+        "/Users/yanjustino/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

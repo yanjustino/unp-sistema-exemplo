@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Dominio.Teste/Unp.Sistema.Dominio.Teste.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

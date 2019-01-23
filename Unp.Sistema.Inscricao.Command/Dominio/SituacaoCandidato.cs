@@ -5,10 +5,10 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
 {
     public class SituacaoCandidato : Enumeracao
     {
-        public static SituacaoCandidato Nenhuma => new SituacaoCandidatoEnum(-1, "");
-        public static SituacaoCandidato Aprovado => new SituacaoCandidatoEnum(0, "Aprovado");
-        public static SituacaoCandidato Reprovado => new SituacaoCandidatoEnum(1, "Reprovado");
-        public static SituacaoCandidato Suplente => new SituacaoCandidatoEnum(2, "Suplente");
+        public static SituacaoCandidato Nenhuma => new SituacaoCandidato(-1, "");
+        public static SituacaoCandidato Aprovado => new SituacaoCandidato(0, "Aprovado");
+        public static SituacaoCandidato Reprovado => new SituacaoCandidato(1, "Reprovado");
+        public static SituacaoCandidato Suplente => new SituacaoCandidato(2, "Suplente");
 
         protected SituacaoCandidato()
         {

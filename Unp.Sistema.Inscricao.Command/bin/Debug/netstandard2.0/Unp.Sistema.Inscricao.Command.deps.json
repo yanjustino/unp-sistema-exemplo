@@ -29,6 +29,9 @@
         }
       },
       "Unp.Sistema.Dominio/1.0.0": {
+        "dependencies": {
+          "Unp.Sistema.Core": "1.0.0"
+        },
         "runtime": {
           "Unp.Sistema.Dominio.dll": {}
         }
