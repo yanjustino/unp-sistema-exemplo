@@ -19,6 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unp.Sistema.Dominio", "Unp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unp.Sistema.Dominio.Teste", "Unp.Sistema.Dominio.Teste\Unp.Sistema.Dominio.Teste.csproj", "{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9C9DF1B-F303-413E-BD1C-059641867675}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		cake.config = cake.config
+		docker-compose.yml = docker-compose.yml
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpDataMigration", "UnpDataMigration\UnpDataMigration.csproj", "{EACD0209-77F7-416A-BB7D-CFA65E49C53F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +55,10 @@ Global
 		{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BAED3F75-A462-4220-BCB7-FD31C85B5B26} = {A04463BC-020E-4565-83DD-95B15E72CACE}
@@ -54,5 +68,6 @@ Global
 		{A7C56346-DC93-4A0F-A1E4-19698B0C7489} = {32B6DCBF-1ECA-4602-B5B4-A0DC9FA129C1}
 		{BFB0C2FD-0337-4004-B126-5EE471EE5B67} = {32B6DCBF-1ECA-4602-B5B4-A0DC9FA129C1}
 		{A96195E6-40C8-4DAB-BCC1-0DE873F3850F} = {32B6DCBF-1ECA-4602-B5B4-A0DC9FA129C1}
+		{EACD0209-77F7-416A-BB7D-CFA65E49C53F} = {B9C9DF1B-F303-413E-BD1C-059641867675}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  db:
+    image: "microsoft/mssql-server-linux"
+    ports:
+      - "1433:1433"
+    environment:
+        SA_PASSWORD: "M@ster123"
+        ACCEPT_EULA: "Y"
+    networks:
+      - unp-network
+
+networks:
+  unp-network:
+    driver: bridge

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cake.FluentMigrator</id>
+    <version>0.3.0</version>
+    <title>Cake.FluentMigrator</title>
+    <authors>Fredrik Leijon</authors>
+    <owners>Fredrik Leijon, cake-contrib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/cake-contrib/Cake.FluentMigrator/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cake-contrib/Cake.FluentMigrator</projectUrl>
+    <description>FluentMigrator extension for Cake.</description>
+    <summary>Adds FluentMigrator helper for cake scripts.</summary>
+    <copyright>Copyright (c) Cake Contributions 2016 - Present</copyright>
+    <tags>Cake, Script, Build, FluentMigrator</tags>
+    <dependencies>
+      <dependency id="FluentMigrator.Tools" version="1.6.2" />
+    </dependencies>
+  </metadata>
+</package>

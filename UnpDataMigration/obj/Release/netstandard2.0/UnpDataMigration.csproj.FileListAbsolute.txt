@@ -1,0 +1,9 @@
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/obj/Release/netstandard2.0/UnpDataMigration.csprojAssemblyReference.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/obj/Release/netstandard2.0/UnpDataMigration.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/obj/Release/netstandard2.0/UnpDataMigration.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/obj/Release/netstandard2.0/UnpDataMigration.AssemblyInfo.cs
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/bin/Release/netstandard2.0/UnpDataMigration.deps.json
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/bin/Release/netstandard2.0/UnpDataMigration.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/bin/Release/netstandard2.0/UnpDataMigration.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/obj/Release/netstandard2.0/UnpDataMigration.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/UnpDataMigration/obj/Release/netstandard2.0/UnpDataMigration.pdb

@@ -9,6 +9,7 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
         public Candidato Candidato { get; private set; }
         public Curso CursoPretendido { get; private set; }
         public SituacaoCandidato Situacao { get; private set; } = SituacaoCandidato.Nenhuma;
+        public DateTime DataInscricao { get; private set; }
 
         private Inscricao()
         {
@@ -45,7 +46,8 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
                 {
                     Candidato = new Candidato(comando),
                     Situacao = SituacaoCandidato.Nenhuma,
-                    CursoPretendido = cursoPretendido
+                    CursoPretendido = cursoPretendido,
+                    DataInscricao = DateTime.Today
                 };
 
                 if (!inscricao.Candidato.MaiorIdade())

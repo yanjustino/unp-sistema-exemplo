@@ -1,22 +1,17 @@
 ﻿<Properties StartupConfiguration="{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Unp.Sistema.Core/ObjetoDeValor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="build.cake">
     <Files>
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Inscricao.cs" Line="16" Column="1" />
-      <File FileName="Unp.Sistema.Core/Enumeracao.cs" Line="9" Column="37" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/SituacaoCandidato.cs" Line="17" Column="36" />
-      <File FileName="../../../emergingcode/ec01-senac-go/src/Compras/EmergingCode.Ecommerce.Compras.Dominio/Modelos/Pedidos/StatusPedido.cs" Line="7" Column="8" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Candidato.cs" Line="18" Column="35" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs" Line="12" Column="25" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Comandos/RegistroDeInscricaoNovoCandidato.cs" Line="8" Column="50" />
-      <File FileName="Unp.Sistema.Core/ObjetoDeValor.cs" Line="6" Column="32" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Inscricao.cs" Line="49" Column="40" />
+      <File FileName="docker-compose.yml" Line="9" Column="23" />
+      <File FileName="UnpDataMigration/Candidato_23012019.cs" Line="26" Column="1" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Candidato.cs" Line="13" Column="53" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs" Line="13" Column="10" />
+      <File FileName="UnpDataMigration/Inscricao_23012019.cs" Line="24" Column="41" />
+      <File FileName="UnpDataMigration/Curso_23012019.cs" Line="18" Column="1" />
+      <File FileName="UnpDataMigration/UnpDataMigration.csproj" Line="1" Column="1" />
+      <File FileName="build.sh" Line="40" Column="12" />
+      <File FileName="build.cake" Line="5" Column="24" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unp.Sistema" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Recursos_220Compartilhados.Dominio.Unp.Sistema.Dominio.Teste PreferredExecutionTarget="MonoDevelop.Default" />

@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cake.FluentMigrator</name>
+    </assembly>
+    <members>
+        <member name="T:Cake.FluentMigrator.FluentMigratorAliases">
+            <summary>
+            <para>Contains aliases related to <see href="https://github.com/schambers/fluentmigrator">FluentMigrator</see>.</para>
+            <para>
+            In order to use the commands for this addin, you will need to include the following in your build.cake file to download and
+            reference from NuGet.org:
+            <code>
+            #addin Cake.FluentMigrator
+            </code>
+            </para>
+            </summary>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorAliases.FluentMigrator(Cake.Core.ICakeContext,Cake.FluentMigrator.FluentMigratorSettings)">
+            <summary>
+            Executes FluentMigrator using the specified settings.
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+            <example>
+            <code>
+                FluentMigrator(new FluentMigratorSettings{
+                    Connection = "Data Source=.\\sqlexpress;Initial Catalog=DataBase;integrated security=true",
+                    Provider= "sqlserver",
+                    Assembly = "./My.Migrations/bin/Debug/My.Migrations.dll"
+                });
+            </code>
+            </example>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorAliases.FluentMigrator(Cake.Core.ICakeContext,System.String,System.String,Cake.Core.IO.FilePath)">
+            <summary>
+            Executes FluentMigrator using the specified parameters.
+            </summary>
+            <param name="context">The context.</param>
+            <param name="connection">The connection string.</param>
+            <param name="provider">The provider.</param>
+            <param name="assembly">The path to the assembly.</param>
+            <example>
+            <code>
+                FluentMigrator("Data Source=.\\sqlexpress;Initial Catalog=DataBase;integrated security=true",
+                    "sqlserver",
+                    "./My.Migrations/bin/Debug/My.Migrations.dll");
+            </code>
+            </example>
+        </member>
+        <member name="T:Cake.FluentMigrator.FluentMigratorRunner">
+            <summary>
+            The FluentMigrator Runner used to execute FluentMigrator
+            </summary>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorRunner.#ctor(Cake.Core.IO.IFileSystem,Cake.Core.ICakeEnvironment,Cake.Core.IO.IProcessRunner,Cake.Core.Tooling.IToolLocator,Cake.FluentMigrator.IFluentMigratorToolResolver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cake.FluentMigrator.FluentMigratorRunner" /> class.
+            </summary>
+            <param name="fileSystem">The file system.</param>
+            <param name="environment">The environment.</param>
+            <param name="processRunner">The process runner.</param>
+            <param name="toolLocator">The tool locator.</param>
+            <param name="resolver">The tool resolver</param>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorRunner.GetToolName">
+            <summary>
+            Get FluentMigrator tool name.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorRunner.GetToolExecutableNames">
+            <summary>
+            Gets the possible names of the tool executable.
+            </summary>
+            <returns>
+            The tool executable name.
+            </returns>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorRunner.GetAlternativeToolPaths(Cake.FluentMigrator.FluentMigratorSettings)">
+            <summary>
+            Gets alternative file paths which the tool may exist in
+            </summary>
+            <param name="settings">The settings.</param>
+            <returns>
+            The default tool path.
+            </returns>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorRunner.Run(Cake.FluentMigrator.FluentMigratorSettings)">
+            <summary>
+            Executes FluentMigrator using the provided settings.
+            </summary>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="T:Cake.FluentMigrator.FluentMigratorSettings">
+            <summary>
+            Contains settings used by <see cref="T:Cake.FluentMigrator.FluentMigratorRunner"/>.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Connection">
+            <summary>
+            Gets or sets the Connection string that will be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Provider">
+            <summary>
+            Gets or sets the Provider that will be used by FluentMigrator.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Assembly">
+            <summary>
+            Gets or sets the FilePath to the assembly that will be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.PreviewOnly">
+            <summary>
+            Gets or sets a value indicating whether execution should only a preview.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Namespace">
+            <summary>
+            Gets or sets the default namespace to be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.NestedNamespaces">
+            <summary>
+            Gets or sets a value indicating whether nested namespaces should be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Output">
+            <summary>
+            Gets or sets a value indicating whether to output the result.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.OutputFileName">
+            <summary>
+            Gets or sets the name of the output file.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Task">
+            <summary>
+            Gets or sets the name of the task.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Version">
+            <summary>
+            Gets or sets the version number to be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.StartVersion">
+            <summary>
+            Gets or sets the start version number for the execution.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.NoConnection">
+            <summary>
+            Gets or sets a value indicating whether no connection.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Verbose">
+            <summary>
+            Gets or sets a value indicating whether verbose output should be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Steps">
+            <summary>
+            Gets or sets the number of steps.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Profile">
+            <summary>
+            Gets or sets the profile name to be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Timeout">
+            <summary>
+            Gets or sets the timeout period.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.ConnectionStringConfigPath">
+            <summary>
+            Gets or sets the path to the connection string configuration.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.Tags">
+            <summary>
+            Gets or sets the list of tags to be used.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.TransactionPerSession">
+            <summary>
+            Gets or sets a value indicating whether transaction are based per session.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.ProviderSwitches">
+            <summary>
+            Gets or sets the provider switches that should be applied.
+            </summary>
+        </member>
+        <member name="P:Cake.FluentMigrator.FluentMigratorSettings.ApplicationContext">
+            <summary>
+            Gets or sets the application context.
+            </summary>
+        </member>
+        <member name="T:Cake.FluentMigrator.FluentMigratorToolResolver">
+            <summary>
+            Contains FluentMigrator resolver functionality
+            </summary>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorToolResolver.#ctor(Cake.Core.IO.IFileSystem,Cake.Core.ICakeEnvironment,Cake.Core.Tooling.IToolLocator)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cake.FluentMigrator.FluentMigratorToolResolver" /> class.
+            </summary>
+            <param name="fileSystem">The file system.</param>
+            <param name="environment">The environment.</param>
+            <param name="toolLocator">The tool locator.</param>
+        </member>
+        <member name="M:Cake.FluentMigrator.FluentMigratorToolResolver.ResolvePath">
+            <summary>
+            Resolves the path to Migrate.exe.
+            </summary>
+            <returns>The path to Migrate.exe.</returns>
+        </member>
+        <member name="T:Cake.FluentMigrator.IFluentMigratorToolResolver">
+            <summary>
+            Represents a FluentMigerator path resolver.
+            </summary>
+        </member>
+        <member name="M:Cake.FluentMigrator.IFluentMigratorToolResolver.ResolvePath">
+            <summary>
+            Locate the path to the FluentMigrator tool.
+            </summary>
+            <returns>The path to the FluentMigrator tool.</returns>
+        </member>
+    </members>
+</doc>

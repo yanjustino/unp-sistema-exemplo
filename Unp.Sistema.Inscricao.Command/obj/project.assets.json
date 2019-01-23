@@ -223,13 +223,13 @@
       "projectName": "Unp.Sistema.Inscricao.Command",
       "projectPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/Unp.Sistema.Inscricao.Command.csproj",
       "packagesPath": "/Users/yanjustino/.nuget/packages/",
-      "outputPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/obj/",
+      "outputPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/yanjustino/.nuget/NuGet/NuGet.Config"
+        "/Users/yanjustino/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
