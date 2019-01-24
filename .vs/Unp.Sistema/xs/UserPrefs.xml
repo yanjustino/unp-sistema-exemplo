@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unp.Sistema.Inscricao.Infraestrutura/Repositorios/RepositorioInscricao.cs">
     <Files>
-      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Servicos/InscricaoService.cs" Line="12" Column="1" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Comandos/RegistroDeInscricaoNovoCandidato.cs" Line="17" Column="2" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Comandos/SolicitacaoDeNovaInscricao.cs" Line="8" Column="28" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Inscricao.cs" Line="25" Column="33" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/IRepositorioCursos.cs" Line="4" Column="40" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/IRepositorioInscricao.cs" Line="7" Column="1" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/IRepositorioCandidato.cs" Line="5" Column="6" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Comandos/AprovacaoCandidato.cs" Line="6" Column="46" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/ServicoDeVerificacaoDeBolsaDeEstudo.cs" Line="14" Column="10" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/IServicoProgramaBolsa.cs" Line="9" Column="1" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs" Line="9" Column="24" />
+      <File FileName="build.cake" Line="31" Column="23" />
+      <File FileName="UnpDataMigration/Candidato_23012019.cs" Line="33" Column="44" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Servicos/InscricaoService.cs" Line="13" Column="16" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/ServicoDeVerificacaoDeBolsaDeEstudo.cs" Line="8" Column="70" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/IRepositorioInscricao.cs" Line="6" Column="42" />
+      <File FileName="Unp.Sistema.Inscricao.Infraestrutura/Repositorios/RepositorioInscricao.cs" Line="33" Column="57" />
+      <File FileName="Unp.Sistema.Inscricao.Infraestrutura/Repositorios/BaseRepositorio.cs" Line="10" Column="48" />
+      <File FileName="UnpDataMigration/Inscricao_23012019.cs" Line="21" Column="19" />
+      <File FileName="UnpDataMigration/Curso_23012019.cs" Line="34" Column="1" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Inscricao.cs" Line="90" Column="2" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs" Line="9" Column="33" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/SituacaoCandidato.cs" Line="6" Column="18" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Candidato.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnpDataMigration", "UnpDataMigration\UnpDataMigration.csproj", "{EACD0209-77F7-416A-BB7D-CFA65E49C53F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unp.Sistema.Inscricao.Infraestrutura", "Unp.Sistema.Inscricao.Infraestrutura\Unp.Sistema.Inscricao.Infraestrutura.csproj", "{F8F31AF0-E356-4F6C-9359-60FCB1644138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACD0209-77F7-416A-BB7D-CFA65E49C53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F31AF0-E356-4F6C-9359-60FCB1644138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F31AF0-E356-4F6C-9359-60FCB1644138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F31AF0-E356-4F6C-9359-60FCB1644138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F31AF0-E356-4F6C-9359-60FCB1644138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BAED3F75-A462-4220-BCB7-FD31C85B5B26} = {A04463BC-020E-4565-83DD-95B15E72CACE}
@@ -69,5 +75,6 @@ Global
 		{BFB0C2FD-0337-4004-B126-5EE471EE5B67} = {32B6DCBF-1ECA-4602-B5B4-A0DC9FA129C1}
 		{A96195E6-40C8-4DAB-BCC1-0DE873F3850F} = {32B6DCBF-1ECA-4602-B5B4-A0DC9FA129C1}
 		{EACD0209-77F7-416A-BB7D-CFA65E49C53F} = {B9C9DF1B-F303-413E-BD1C-059641867675}
+		{F8F31AF0-E356-4F6C-9359-60FCB1644138} = {BAED3F75-A462-4220-BCB7-FD31C85B5B26}
 	EndGlobalSection
 EndGlobal

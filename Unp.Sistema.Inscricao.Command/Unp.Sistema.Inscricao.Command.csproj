@@ -14,4 +14,7 @@
     <ProjectReference Include="..\Unp.Sistema.Core\Unp.Sistema.Core.csproj" />
     <ProjectReference Include="..\Unp.Sistema.Dominio\Unp.Sistema.Dominio.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Dominio\IRepositorioCandidato.cs" />
+  </ItemGroup>
 </Project>

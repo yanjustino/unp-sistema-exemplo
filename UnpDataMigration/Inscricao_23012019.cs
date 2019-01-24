@@ -23,6 +23,7 @@ namespace UnpDataMigration
                 .WithColumn("Id").AsInt64().NotNullable().PrimaryKey().Identity()
                 .WithColumn("CandidatoId").AsInt64().NotNullable().ForeignKey("Candidato", "Id")
                 .WithColumn("CursoId").AsInt64().NotNullable().ForeignKey("Curso", "Id")
+                .WithColumn("BolsaEstudo").AsBoolean().NotNullable()
                 .WithColumn("DataInscricao").AsDateTime().NotNullable().WithDefault(SystemMethods.CurrentDateTime);
         }
     }

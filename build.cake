@@ -1,5 +1,4 @@
 #addin "nuget:?package=Cake.SqlServer"
-#addin "Cake.FluentMigrator"
 #addin "Cake.Docker"
 
 var dbName = "UNPData";
@@ -62,6 +61,6 @@ Task("Default")
     .IsDependentOn("Create-Database")
     .IsDependentOn("Uninstall-FluentMigrator-Cli")
     .IsDependentOn("Install-FluentMigrator-Cli")
-     .IsDependentOn("Apply-Migrations");
+    .IsDependentOn("Apply-Migrations");
     
 RunTarget(target);

@@ -17,9 +17,6 @@ namespace UnpDataMigration
         public override void Up()
         {
             if (Schema.Table(NomeDaTabela).Exists())
-                Delete.Table(NomeDaTabela);
-
-            if (Schema.Table(NomeDaTabela).Exists())
             {
                 Delete.ForeignKey("FK_Inscricao_CandidatoId_Candidato_Id").OnTable("Inscricao");
                 Delete.Column("CandidatoId").FromTable("Inscricao");

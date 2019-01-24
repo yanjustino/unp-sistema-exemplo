@@ -26,7 +26,8 @@ namespace UnpDataMigration
             Create
                 .Table(NomeDaTabela)
                 .WithColumn("Id").AsInt64().NotNullable().PrimaryKey().Identity()
-                .WithColumn("Nome").AsString(200).NotNullable();
+                .WithColumn("Nome").AsString(200).NotNullable()
+                .WithColumn("PermiteBolsa").AsBoolean().NotNullable();
 
             InserirCursos();
         }
@@ -35,12 +36,11 @@ namespace UnpDataMigration
         {
             Insert
                 .IntoTable(NomeDaTabela)
-                .Row(new { Nome = "Curso 01" })
-                .Row(new { Nome = "Curso 02" })
-                .Row(new { Nome = "Curso 03" })
-                .Row(new { Nome = "Curso 04" })
-                .Row(new { Nome = "Curso 05" });
+                .Row(new { Nome = "Curso 01", PermiteBolsa = false })
+                .Row(new { Nome = "Curso 02", PermiteBolsa = false })
+                .Row(new { Nome = "Curso 03", PermiteBolsa = false })
+                .Row(new { Nome = "Curso 04", PermiteBolsa = false })
+                .Row(new { Nome = "Curso 05", PermiteBolsa = true });
         }
-
     }
 }

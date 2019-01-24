@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Repositorios\RepositorioCandidato.cs" />
+    <Compile Remove="Repositorios\RepositorioCursos.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Unp.Sistema.Inscricao.Command\Unp.Sistema.Inscricao.Command.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Core\Unp.Sistema.Core.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Dominio\Unp.Sistema.Dominio.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositorios\" />
+  </ItemGroup>
+</Project>

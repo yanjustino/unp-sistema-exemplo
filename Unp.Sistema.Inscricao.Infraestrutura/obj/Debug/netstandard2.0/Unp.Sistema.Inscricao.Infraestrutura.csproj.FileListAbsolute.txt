@@ -1,0 +1,16 @@
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.csprojAssemblyReference.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.AssemblyInfo.cs
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.deps.json
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Core.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Dominio.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Command.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Inscricao.Command.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Core.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/bin/Debug/netstandard2.0/Unp.Sistema.Dominio.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.csproj.CopyComplete
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.dll
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/obj/Debug/netstandard2.0/Unp.Sistema.Inscricao.Infraestrutura.pdb

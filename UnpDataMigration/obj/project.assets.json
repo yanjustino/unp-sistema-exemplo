@@ -130,6 +130,43 @@
         "runtime": {
           "lib/netstandard2.0/_._": {}
         }
+      },
+      "Unp.Sistema.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Unp.Sistema.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unp.Sistema.Core.dll": {}
+        }
+      },
+      "Unp.Sistema.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unp.Sistema.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unp.Sistema.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unp.Sistema.Dominio.dll": {}
+        }
+      },
+      "Unp.Sistema.Inscricao.Command/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unp.Sistema.Core": "1.0.0",
+          "Unp.Sistema.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unp.Sistema.Inscricao.Command.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unp.Sistema.Inscricao.Command.dll": {}
+        }
       }
     }
   },
@@ -512,12 +549,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Unp.Sistema.Core/1.0.0": {
+      "type": "project",
+      "path": "../Unp.Sistema.Core/Unp.Sistema.Core.csproj",
+      "msbuildProject": "../Unp.Sistema.Core/Unp.Sistema.Core.csproj"
+    },
+    "Unp.Sistema.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Unp.Sistema.Dominio/Unp.Sistema.Dominio.csproj",
+      "msbuildProject": "../Unp.Sistema.Dominio/Unp.Sistema.Dominio.csproj"
+    },
+    "Unp.Sistema.Inscricao.Command/1.0.0": {
+      "type": "project",
+      "path": "../Unp.Sistema.Inscricao.Command/Unp.Sistema.Inscricao.Command.csproj",
+      "msbuildProject": "../Unp.Sistema.Inscricao.Command/Unp.Sistema.Inscricao.Command.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FluentMigrator >= 3.1.3",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Unp.Sistema.Inscricao.Command >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -547,7 +600,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/Unp.Sistema.Inscricao.Command.csproj": {
+              "projectPath": "/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Command/Unp.Sistema.Inscricao.Command.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
