@@ -34,6 +34,18 @@
           }
         }
       },
+      "Flunt/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Flunt.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -134,6 +146,9 @@
       "Unp.Sistema.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Flunt": "1.0.2"
+        },
         "compile": {
           "bin/placeholder/Unp.Sistema.Core.dll": {}
         },
@@ -145,6 +160,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Flunt": "1.0.2",
           "Unp.Sistema.Core": "1.0.0"
         },
         "compile": {
@@ -158,6 +174,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Flunt": "1.0.2",
           "Unp.Sistema.Core": "1.0.0",
           "Unp.Sistema.Dominio": "1.0.0"
         },
@@ -205,6 +222,17 @@
         "lib/netstandard2.0/FluentMigrator.Abstractions.pdb",
         "lib/netstandard2.0/FluentMigrator.Abstractions.xml",
         "lib/netstandard2.0/de-DE/FluentMigrator.Abstractions.resources.dll"
+      ]
+    },
+    "Flunt/1.0.2": {
+      "sha512": "inI9kmNogpDesmDecz9PEQmxaOIoW8+jsZ8nBaI+7Tb/hyWy8K0TPr1s7fHJk9Mfcdnvwev4LxeiGrHJRoIt+A==",
+      "type": "package",
+      "path": "flunt/1.0.2",
+      "files": [
+        ".signature.p7s",
+        "flunt.1.0.2.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard1.3/Flunt.dll"
       ]
     },
     "Microsoft.Extensions.DependencyInjection/2.0.0": {

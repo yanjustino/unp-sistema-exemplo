@@ -1,9 +1,10 @@
 ﻿using System;
+using Flunt.Validations;
 using Unp.Sistema.Core;
 
 namespace Unp.Sistema.Inscricao.Command.Dominio
 {
-    public class Curso : Entidade
+    public class Curso : Entidade, IValidatable
     {
         public string Nome { get; private set; }
         public bool PermiteBolsa { get; private set; }
@@ -12,6 +13,13 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
         {
             Nome = nome;
             PermiteBolsa = permiteBolsa;
+        }
+
+        public void Validate()
+        {
+            AddNotifications(new Contract()
+                .IsNull(Nome, "Nome", "O nome deve ser informado")
+            );
         }
     }
 }

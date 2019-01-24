@@ -7,4 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Unp.Sistema.Core\Unp.Sistema.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.2" />
+  </ItemGroup>
 </Project>

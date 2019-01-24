@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "7d5e392004ea2d37dd01eca0dec865db0ff632fe"
+    "signature": "27730c71c5f5af91a11b3410d0502b996640e87c"
   },
   "compilationOptions": {},
   "targets": {
@@ -29,6 +29,17 @@
           "lib/netstandard2.0/Dapper.dll": {
             "assemblyVersion": "1.50.5.0",
             "fileVersion": "1.50.5.0"
+          }
+        }
+      },
+      "Flunt/1.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Flunt.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       },
@@ -241,12 +252,16 @@
         }
       },
       "Unp.Sistema.Core/1.0.0": {
+        "dependencies": {
+          "Flunt": "1.0.2"
+        },
         "runtime": {
           "Unp.Sistema.Core.dll": {}
         }
       },
       "Unp.Sistema.Dominio/1.0.0": {
         "dependencies": {
+          "Flunt": "1.0.2",
           "Unp.Sistema.Core": "1.0.0"
         },
         "runtime": {
@@ -255,6 +270,7 @@
       },
       "Unp.Sistema.Inscricao.Command/1.0.0": {
         "dependencies": {
+          "Flunt": "1.0.2",
           "Unp.Sistema.Core": "1.0.0",
           "Unp.Sistema.Dominio": "1.0.0"
         },
@@ -276,6 +292,13 @@
       "sha512": "sha512-AzAdZ9fEzUtav3Sbc5CMgz5O2oYkc5g1r+g1h/Vn+wqcInII+xtNEfyZryeW90Wq72bxjEBJhe18j+2SrGrc5A==",
       "path": "dapper/1.50.5",
       "hashPath": "dapper.1.50.5.nupkg.sha512"
+    },
+    "Flunt/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-inI9kmNogpDesmDecz9PEQmxaOIoW8+jsZ8nBaI+7Tb/hyWy8K0TPr1s7fHJk9Mfcdnvwev4LxeiGrHJRoIt+A==",
+      "path": "flunt/1.0.2",
+      "hashPath": "flunt.1.0.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

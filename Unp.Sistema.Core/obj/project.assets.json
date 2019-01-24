@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Flunt/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Flunt.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +41,17 @@
     }
   },
   "libraries": {
+    "Flunt/1.0.2": {
+      "sha512": "inI9kmNogpDesmDecz9PEQmxaOIoW8+jsZ8nBaI+7Tb/hyWy8K0TPr1s7fHJk9Mfcdnvwev4LxeiGrHJRoIt+A==",
+      "type": "package",
+      "path": "flunt/1.0.2",
+      "files": [
+        ".signature.p7s",
+        "flunt.1.0.2.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard1.3/Flunt.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "sFZmYgfaIkFUhP49cUj/TDsu2I1OZ7EqVCSzyAslHAQE+9i+H9kOqRZDv/EXR6qeuaQIDGuLLSKqxvJgwsXOqg==",
       "type": "package",
@@ -174,6 +197,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Flunt >= 1.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -216,6 +240,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

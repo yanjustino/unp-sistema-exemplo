@@ -1,8 +1,9 @@
 ﻿using System;
+using Flunt.Notifications;
 
 namespace Unp.Sistema.Core
 {
-    public abstract class Entidade
+    public abstract class Entidade : Notifiable
     {
         public virtual long Id { get; protected set; }
 

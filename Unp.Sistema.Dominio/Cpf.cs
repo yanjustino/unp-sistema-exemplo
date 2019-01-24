@@ -1,9 +1,10 @@
 ﻿using System;
+using Flunt.Validations;
 using Unp.Sistema.Core;
 
 namespace Unp.Sistema.Dominio
 {
-    public class Cpf : ObjetoDeValor<Cpf>
+    public class Cpf : ObjetoDeValor<Cpf>, IValidatable
     {
         public string Numero { get; }
         public string NumeroComMascara { get; }
@@ -12,12 +13,6 @@ namespace Unp.Sistema.Dominio
         {
             Numero = numero;
             NumeroComMascara = Formatar(numero);
-        }
-
-        bool Valido()
-        {
-            //TODO : programar lógica
-            return true;
         }
 
         string Formatar(string numero) => numero;
@@ -30,6 +25,13 @@ namespace Unp.Sistema.Dominio
         protected override int GetHashCodeCore()
         {
             return Numero.GetHashCode();
+        }
+
+        public void Validate()
+        {
+            AddNotifications(new Contract()
+                .IsLowerThan(11, Numero.Length, "CPF", "Cpf Inválido")
+            );
         }
     }
 }

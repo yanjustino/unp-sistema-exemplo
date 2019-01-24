@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": "bf613773e553e1d09eed5337af9ea0355ce5a251"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,12 +9,24 @@
     ".NETStandard,Version=v2.0/": {
       "Unp.Sistema.Inscricao.Command/1.0.0": {
         "dependencies": {
+          "Flunt": "1.0.2",
           "NETStandard.Library": "2.0.3",
           "Unp.Sistema.Core": "1.0.0",
           "Unp.Sistema.Dominio": "1.0.0"
         },
         "runtime": {
           "Unp.Sistema.Inscricao.Command.dll": {}
+        }
+      },
+      "Flunt/1.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Flunt.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -24,12 +36,16 @@
         }
       },
       "Unp.Sistema.Core/1.0.0": {
+        "dependencies": {
+          "Flunt": "1.0.2"
+        },
         "runtime": {
           "Unp.Sistema.Core.dll": {}
         }
       },
       "Unp.Sistema.Dominio/1.0.0": {
         "dependencies": {
+          "Flunt": "1.0.2",
           "Unp.Sistema.Core": "1.0.0"
         },
         "runtime": {
@@ -43,6 +59,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Flunt/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-inI9kmNogpDesmDecz9PEQmxaOIoW8+jsZ8nBaI+7Tb/hyWy8K0TPr1s7fHJk9Mfcdnvwev4LxeiGrHJRoIt+A==",
+      "path": "flunt/1.0.2",
+      "hashPath": "flunt.1.0.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

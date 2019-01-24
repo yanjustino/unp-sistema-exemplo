@@ -19,7 +19,7 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
         public void AprovarCandidato()
         {
             if (Situacao == SituacaoCandidato.Reprovado.DisplayName)
-                throw new InvalidOperationException("Candidato Já está reprovado");
+                AddNotification("Situacao", "Candidato Já está reprovado");
 
             Situacao = SituacaoCandidato.Aprovado.DisplayName;
         }
@@ -27,7 +27,7 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
         public void Reprovar()
         {
             if (Situacao == SituacaoCandidato.Aprovado.DisplayName)
-                throw new InvalidOperationException("Candidato Já está Aprovado");
+                AddNotification("Situacao", "Candidato Já está Aprovado");
 
             Situacao = SituacaoCandidato.Reprovado.DisplayName;
         }
@@ -50,8 +50,8 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
                     BolsaEstudo = false
                 };
 
-                if (!inscricao.Candidato.MaiorIdade())
-                    throw new InvalidOperationException("Candidato de menor");
+                if (inscricao.Candidato.Invalid)
+                    inscricao.AddNotifications(inscricao.Candidato);
 
                 return inscricao;
             }
@@ -67,8 +67,8 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
                     BolsaEstudo = false
                 };
 
-                if (!inscricao.Candidato.MaiorIdade())
-                    throw new InvalidOperationException("Candidato de menor");
+                if (inscricao.Candidato.Invalid)
+                    inscricao.AddNotifications(inscricao.Candidato);
 
                 return inscricao;
             }

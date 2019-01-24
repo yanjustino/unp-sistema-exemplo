@@ -1,6 +1,8 @@
-﻿namespace Unp.Sistema.Core
+﻿using Flunt.Notifications;
+
+namespace Unp.Sistema.Core
 {
-    public abstract class ObjetoDeValor<T>
+    public abstract class ObjetoDeValor<T> : Notifiable
         where T : ObjetoDeValor<T>
     {
         public override bool Equals(object objetoDeValor)

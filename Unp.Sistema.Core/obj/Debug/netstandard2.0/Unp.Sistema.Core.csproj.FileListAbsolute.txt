@@ -6,3 +6,4 @@
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.AssemblyInfo.cs
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.dll
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.pdb
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Core/obj/Debug/netstandard2.0/Unp.Sistema.Core.csprojAssemblyReference.cache

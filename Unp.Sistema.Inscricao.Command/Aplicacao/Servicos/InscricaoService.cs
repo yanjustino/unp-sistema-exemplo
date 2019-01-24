@@ -1,9 +1,10 @@
-﻿using Unp.Sistema.Inscricao.Command.Aplicacao.Comandos;
+﻿using Unp.Sistema.Core;
+using Unp.Sistema.Inscricao.Command.Aplicacao.Comandos;
 using Unp.Sistema.Inscricao.Command.Dominio;
 
 namespace Unp.Sistema.Inscricao.Command.Aplicacao.Servicos
 {
-    public class InscricaoService
+    public class InscricaoService : ServicoBase
     {
         private readonly IRepositorioInscricao _repositorioInscricao;
         private readonly ServicoDeVerificacaoDeBolsaDeEstudo _servicoDeVerificacaoDeBolsaDeEstudo;
@@ -32,10 +33,15 @@ namespace Unp.Sistema.Inscricao.Command.Aplicacao.Servicos
             var curso = _repositorioInscricao.RecuperarCursoPorId(command.CursoId);
             var inscricao = Dominio.Inscricao.Fabrica.NovaInscricao(command, curso);
 
-            if (_servicoDeVerificacaoDeBolsaDeEstudo.TentarAplicarBolsaEstudo(inscricao.Candidato, curso))
-                inscricao.LiberarBolsaEstudo();
+            if (inscricao.Invalid)
+                AddNotifications(inscricao);
+            else
+            {
+                if (_servicoDeVerificacaoDeBolsaDeEstudo.TentarAplicarBolsaEstudo(inscricao.Candidato, curso))
+                    inscricao.LiberarBolsaEstudo();
 
-            _repositorioInscricao.Salvar(inscricao);
+                _repositorioInscricao.Salvar(inscricao);
+            }
         }
 
         public void Executar(SolicitacaoDeNovaInscricao command)

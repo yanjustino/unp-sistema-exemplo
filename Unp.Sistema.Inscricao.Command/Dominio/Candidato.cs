@@ -1,11 +1,12 @@
 ﻿using System;
+using Flunt.Validations;
 using Unp.Sistema.Core;
 using Unp.Sistema.Dominio;
 using Unp.Sistema.Inscricao.Command.Aplicacao.Comandos;
 
 namespace Unp.Sistema.Inscricao.Command.Dominio
 {
-    public class Candidato : Entidade
+    public class Candidato : Entidade, IValidatable
     {
         public string Nome { get; private set; }
         public string Email { get; private set; }
@@ -25,9 +26,16 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
             DataNascimento = command.DataNacimento;
         }
 
-        public bool MaiorIdade()
+        public void Validate()
         {
-            return DateTime.Today.Year - DataNascimento.Year >= 18;
+            Cpf.Validate();
+            if (Cpf.Invalid)
+                AddNotifications(Cpf);
+
+            AddNotifications(new Contract()
+                .IsNotNullOrEmpty(Nome, "Nome", "Nome Obrigatorio")
+                .IsGreaterThan(18, (DateTime.Today.Year - DataNascimento.Year), "DataNascimento", "Deve ser maior idade")
+            );
         }
     }
 }
