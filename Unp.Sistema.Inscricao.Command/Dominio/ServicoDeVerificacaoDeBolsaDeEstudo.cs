@@ -3,17 +3,15 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
 {
     public class ServicoDeVerificacaoDeBolsaDeEstudo
     {
-        private IServicoProgramaBolsa _servicoProgramaBolsa;
 
-        public ServicoDeVerificacaoDeBolsaDeEstudo(IServicoProgramaBolsa servicoProgramaBolsa)
+        public ServicoDeVerificacaoDeBolsaDeEstudo()
         {
-            _servicoProgramaBolsa = servicoProgramaBolsa;
         }
 
         public bool TentarAplicarBolsaEstudo(Candidato candidato, Curso curso)
         {
             if (curso.PermiteBolsa)
-                return _servicoProgramaBolsa.Aplicar(candidato);
+                return true;
             else
                 return false;
         }

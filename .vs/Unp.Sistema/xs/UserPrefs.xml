@@ -1,25 +1,33 @@
-﻿<Properties StartupConfiguration="{A96195E6-40C8-4DAB-BCC1-0DE873F3850F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Unp.Sistema.Inscricao.Testes/UnitTest1.cs">
+﻿<Properties StartupConfiguration="{642F91E5-704A-4F4E-B32E-DF1C0330FA70}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unp.Sistema.Inscricao.Infraestrutura/Repositorios/RepositorioInscricao.cs">
     <Files>
-      <File FileName="build.cake" Line="65" Column="5" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Servicos/InscricaoService.cs" Line="19" Column="1" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Candidato.cs" Line="32" Column="39" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs" Line="20" Column="13" />
-      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Inscricao.cs" Line="53" Column="1" />
-      <File FileName="Unp.Sistema.Core/Agregado.cs" Line="1" Column="1" />
-      <File FileName="Unp.Sistema.Core/Entidade.cs" Line="3" Column="1" />
-      <File FileName="Unp.Sistema.Core/ObjetoDeValor.cs" Line="7" Column="6" />
-      <File FileName="Unp.Sistema.Core/ServicoBase.cs" Line="6" Column="7" />
-      <File FileName="Unp.Sistema.Dominio/Cpf.cs" Line="42" Column="1" />
-      <File FileName="Unp.Sistema.Inscricao.Testes/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Servicos/InscricaoService.cs" Line="12" Column="33" />
+      <File FileName="Unp.Sistema.Inscricao.Api/Controllers/ValuesController.cs" Line="14" Column="1" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Aplicacao/Comandos/RegistroDeInscricaoNovoCandidato.cs" Line="14" Column="32" />
+      <File FileName="Unp.Sistema.Inscricao.Infraestrutura/Repositorios/RepositorioInscricao.cs" Line="112" Column="52" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Curso.cs" Line="15" Column="9" />
+      <File FileName="Unp.Sistema.Core/Entidade.cs" Line="37" Column="1" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Candidato.cs" Line="23" Column="45" />
+      <File FileName="Unp.Sistema.Inscricao.Testes/CandidatoTeste.cs" Line="17" Column="24" />
+      <File FileName="Unp.Sistema.Inscricao.Testes/ServicoInscricaoTeste.cs" Line="36" Column="114" />
+      <File FileName="UnpDataMigration/Curso_23012019.cs" Line="1" Column="1" />
+      <File FileName="UnpDataMigration/Candidato_23012019.cs" Line="1" Column="1" />
+      <File FileName="UnpDataMigration/Inscricao_23012019.cs" Line="25" Column="49" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/ServicoDeVerificacaoDeBolsaDeEstudo.cs" Line="14" Column="29" />
+      <File FileName="Unp.Sistema.Inscricao.Api/Startup.cs" Line="35" Column="67" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/Inscricao.cs" Line="47" Column="45" />
+      <File FileName="Unp.Sistema.Core/Enumeracao.cs" Line="1" Column="1" />
+      <File FileName="Unp.Sistema.Inscricao.Command/Dominio/SituacaoCandidato.cs" Line="15" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Recursos_220Compartilhados.Dominio.Unp.Sistema.Dominio.Teste PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Contextos.Inscricoes.Unp.Sistema.Inscricao.Testes FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Infraestrutura/Repositorios/RepositorioInscricao.cs" relfile="Unp.Sistema.Inscricao.Infraestrutura/Repositorios/RepositorioInscricao.cs" line="72" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Contextos.Inscricoes.Unp.Sistema.Inscricao.Api PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

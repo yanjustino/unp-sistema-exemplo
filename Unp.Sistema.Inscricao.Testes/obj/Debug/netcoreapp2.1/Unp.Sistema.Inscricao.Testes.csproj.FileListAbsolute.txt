@@ -1,3 +1,7 @@
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.csprojAssemblyReference.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.AssemblyInfo.cs
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -12,10 +16,6 @@
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/bin/Debug/netcoreapp2.1/Unp.Sistema.Core.pdb
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/bin/Debug/netcoreapp2.1/Unp.Sistema.Dominio.pdb
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/bin/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Command.pdb
-/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.csproj.CoreCompileInputs.cache
-/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.AssemblyInfoInputs.cache
-/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.AssemblyInfo.cs
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.csproj.CopyComplete
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.dll
 /Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.pdb
-/Users/yanjustino/Projects/unp/projetos/Unp.Sistema/Unp.Sistema.Inscricao.Testes/obj/Debug/netcoreapp2.1/Unp.Sistema.Inscricao.Testes.csprojAssemblyReference.cache

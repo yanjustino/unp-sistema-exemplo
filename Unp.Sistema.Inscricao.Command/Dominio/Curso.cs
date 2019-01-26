@@ -9,6 +9,11 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
         public string Nome { get; private set; }
         public bool PermiteBolsa { get; private set; }
 
+        public Curso()
+        {
+
+        }
+
         public Curso(string nome, bool permiteBolsa = false)
         {
             Nome = nome;

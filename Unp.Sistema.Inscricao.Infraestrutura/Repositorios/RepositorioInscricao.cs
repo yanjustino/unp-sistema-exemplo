@@ -48,28 +48,31 @@ namespace Unp.Sistema.Inscricao.Infraestrutura.Repositorios
                     curso
                 );
             }
-
-            throw new NotImplementedException();
         }
 
         public void Salvar(Command.Dominio.Inscricao inscricao)
         {
             using (IDbConnection dbConnection = new SqlConnection(ConnectionString))
-            using (IDbTransaction dbTransaction = dbConnection.BeginTransaction())
             {
-                try
-                {
-                    if (inscricao.Transitorio())
-                        InserirInscricao(inscricao, dbConnection, dbTransaction);
-                    else
-                        AtualizarInscricao(inscricao, dbConnection, dbTransaction);
+                dbConnection.Open();
 
-                    dbTransaction.Commit();
-                }
-                catch
+                using (IDbTransaction dbTransaction = dbConnection.BeginTransaction())
                 {
-                    dbTransaction.Rollback();
-                    throw;
+                    try
+                    {
+                        if (inscricao.Transitorio())
+                            InserirInscricao(inscricao, dbConnection, dbTransaction);
+                        else
+                            AtualizarInscricao(inscricao, dbConnection, dbTransaction);
+
+                        dbTransaction.Commit();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        dbTransaction.Rollback();
+                        throw;
+                    }
                 }
             }
         }
@@ -78,12 +81,11 @@ namespace Unp.Sistema.Inscricao.Infraestrutura.Repositorios
         {
             var candidatoId = InserirCandidato(inscricao.Candidato, dbConnection, dbTransaction);
 
-            string sQueryB = "INSERT INTO Inscricao ( Id, CandidatoId, CursoId, Situacao, BolsaEstudo ) " +
-                            "VALUES(@Id, @CandidatoId, @CursoId, @Situacao, @BolsaEstudo )";
+            string sQueryB = "INSERT INTO Inscricao ( CandidatoId, CursoId, Situacao, BolsaEstudo ) " +
+                            "VALUES( @CandidatoId, @CursoId, @Situacao, @BolsaEstudo )";
 
             dbConnection.Execute(sQueryB, new
             {
-                inscricao.Id,
                 CandidatoId = candidatoId,
                 CursoId = inscricao.CursoPretendido.Id,
                 inscricao.Situacao,
@@ -91,18 +93,26 @@ namespace Unp.Sistema.Inscricao.Infraestrutura.Repositorios
             }, dbTransaction);
         }
 
-        int InserirCandidato(Candidato candidato, IDbConnection dbConnection, IDbTransaction dbTransaction)
+        long InserirCandidato(Candidato candidato, IDbConnection dbConnection, IDbTransaction dbTransaction)
         {
-            string sQuery = "INSERT INTO Candidato (Id, Nome, Email, Cpf, DataNascimento) " +
-                            "VALUES(@Id, @Nome, @Email, @Cpf, @DataNascimento); " +
+            string sQuery = "INSERT INTO Candidato (Nome, Email, Cpf, DataNascimento) " +
+                            "VALUES(@Nome, @Email, @Cpf, @DataNascimento); " +
                             "SELECT CAST(SCOPE_IDENTITY() as int)";
 
-            return dbConnection.Execute(sQuery, candidato, dbTransaction);
+            return dbConnection.Query<long>(sQuery,
+            new
+            {
+                candidato.Nome,
+                candidato.Email,
+                Cpf = candidato.Cpf.Numero,
+                candidato.DataNascimento
+            },
+            dbTransaction).Single();
         }
 
         void AtualizarInscricao(Command.Dominio.Inscricao inscricao, IDbConnection dbConnection, IDbTransaction dbTransaction)
         {
-            string sQueryB = "UPDATE Inscricao SET Id = @Id, CandidatoId = @CandidatoId, CursoId = @CursoId, Situacao = @Situacao, BolsaEstudo = @BolsaEstudo ) " +
+            string sQueryB = "UPDATE Inscricao SET CandidatoId = @CandidatoId, CursoId = @CursoId, Situacao = @Situacao, BolsaEstudo = @BolsaEstudo " +
                              "WHERE Id = @Id";
 
             dbConnection.Execute(sQueryB, new

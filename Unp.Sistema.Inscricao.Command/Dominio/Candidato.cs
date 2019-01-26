@@ -13,17 +13,14 @@ namespace Unp.Sistema.Inscricao.Command.Dominio
         public Cpf Cpf { get; private set; }
         public DateTime DataNascimento { get; set; }
 
-        public Candidato()
-        {
-
-        }
+        public Candidato() { }
 
         public Candidato(RegistroDeInscricaoNovoCandidato command)
         {
             Nome = command.Nome;
             Email = command.Email;
             Cpf = new Cpf(command.Cpf);
-            DataNascimento = command.DataNacimento;
+            DataNascimento = command.DataNascimento;
         }
 
         public void Validate()

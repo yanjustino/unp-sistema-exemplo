@@ -14,7 +14,7 @@ namespace Unp.Sistema.Inscricao.Testes
             var commando = new RegistroDeInscricaoNovoCandidato
             {
                 CursoId = 1,
-                DataNacimento = new System.DateTime(2019, 1, 24),
+                DataNascimento = new System.DateTime(2019, 1, 24),
                 Email = "teste@teste.com",
                 Nome = "",
                 Cpf = "1"

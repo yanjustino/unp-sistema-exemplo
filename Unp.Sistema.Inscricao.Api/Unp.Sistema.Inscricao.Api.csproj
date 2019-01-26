@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unp.Sistema.Core\Unp.Sistema.Core.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Dominio\Unp.Sistema.Dominio.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Inscricao.Command\Unp.Sistema.Inscricao.Command.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Inscricao.Query\Unp.Sistema.Inscricao.Query.csproj" />
+    <ProjectReference Include="..\Unp.Sistema.Inscricao.Infraestrutura\Unp.Sistema.Inscricao.Infraestrutura.csproj" />
+  </ItemGroup>
+</Project>

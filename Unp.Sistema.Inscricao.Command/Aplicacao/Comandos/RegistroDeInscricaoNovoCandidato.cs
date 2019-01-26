@@ -11,7 +11,7 @@ namespace Unp.Sistema.Inscricao.Command.Aplicacao.Comandos
         public string Email { get; set; }
         public long CursoId { get; set; }
         public string Cpf { get; set; }
-        public DateTime DataNacimento { get; set; }
+        public DateTime DataNascimento { get; set; }
     }
 
 
